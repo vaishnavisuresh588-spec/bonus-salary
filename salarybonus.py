@@ -11,9 +11,9 @@ else:
 
 # Calculate 10% bonus
 bonus = 0.10 * salary
-total = salary + bonus
+total_salary = salary + bonus
 
 # Display results
 print(f"Employee Salary: ₹{salary:.2f}")
 print(f"Bonus Amount: ₹{bonus:.2f}")
-print(f"Total Salary after Bonus: ₹{total:.2f}")
+print(f"Total Salary after Bonus: ₹{total_salary:.2f}")
